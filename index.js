@@ -8,4 +8,16 @@ function mooncakeSays(message) {
   return `${mooncake} ${message}`;
 }
 
+function catSays(message) {
+  let mooncake = '- . -?';
+
+  if (!message) {
+    return `${mooncake} meow?`;
+  }
+
+  return `${mooncake} ${message}`;
+}
+
+
+module.exports.catSays = catSays;
 module.exports.mooncakeSays = mooncakeSays;
