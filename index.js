@@ -12,6 +12,7 @@ function catSays(message) {
   let mooncake = '- . -?';
 
   if (!message) {
+
     return `${mooncake} meow?`;
   }
 
