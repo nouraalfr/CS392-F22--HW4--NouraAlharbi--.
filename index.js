@@ -12,12 +12,14 @@ function catSays(message) {
   let mooncake = '- . -?';
 
   if (!message) {
+
     return `${mooncake} meow?`;
-  }
+}
 
   return `${mooncake} ${message}`;
 }
 
+console.log("hello");
 
 module.exports.catSays = catSays;
 module.exports.mooncakeSays = mooncakeSays;
