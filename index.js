@@ -19,6 +19,7 @@ function catSays(message) {
   return `${mooncake} ${message}`;
 }
 
+console.log("hello word");
 
 module.exports.catSays = catSays;
 module.exports.mooncakeSays = mooncakeSays;
