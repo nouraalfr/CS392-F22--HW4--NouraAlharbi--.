@@ -14,7 +14,7 @@ function catSays(message) {
   if (!message) {
 
     return `${mooncake} meow?`;
-  }
+
 
   return `${mooncake} ${message}`;
 }
